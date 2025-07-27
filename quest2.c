@@ -7,8 +7,8 @@
 // Ug
 
 int main(void) {
-    int a = 9 * 7 + 8;
-    int b = 89 - 4;
+  int a = 9 * 7 + 8;
+  int b = 89 - 4;
 
-    printf("%c%c", a, b);
+  printf("%c%c", a, b);
 }

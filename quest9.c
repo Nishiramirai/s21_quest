@@ -6,13 +6,11 @@
 // получается 98 и 67 в десятичной
 // bC
 
-
-
 int main(void) {
-    int a = 7 * 2;
-    int b = 6 * 4 - 3;
-    int c = 5 - 2;
+  int a = 7 * 2;
+  int b = 6 * 4 - 3;
+  int c = 5 - 2;
 
-    printf("%02d%02d%02d\n", a, b, c);
-    printf("%c%c\n", 98, 67);
+  printf("%02d%02d%02d\n", a, b, c);
+  printf("%c%c\n", 98, 67);
 }

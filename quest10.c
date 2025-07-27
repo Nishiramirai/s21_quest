@@ -6,9 +6,8 @@
 // шифр Reverse
 // Ay
 
-
 int main(void) {
-    int a = strlen("School21") * 15 + 1;
-    int b = 'S' - 18;
-    printf("%c%c\n", a, b);
+  int a = strlen("School21") * 15 + 1;
+  int b = 'S' - 18;
+  printf("%c%c\n", a, b);
 }

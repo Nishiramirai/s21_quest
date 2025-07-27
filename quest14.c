@@ -1,9 +1,8 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdbool.h>
-#include <stdlib.h>
 #include <math.h>
-
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 // Кодовое слово 7vоКВAДRo, находится в акселераторе на желтой стене
 // 19
@@ -11,8 +10,8 @@
 // 91
 
 int main(void) {
-    int a = (1<<4)|(1<<1)|(1 << 0);
-    int b = (1<<5)|(1<<4)|(1<<3)|(1<<0);
+  int a = (1 << 4) | (1 << 1) | (1 << 0);
+  int b = (1 << 5) | (1 << 4) | (1 << 3) | (1 << 0);
 
-    printf("%d\n", a);
+  printf("%d\n", a);
 }
